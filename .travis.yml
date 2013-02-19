@@ -1,0 +1,7 @@
+language: ruby
+script: "ruby -e 'puts \"going to fail...\" ; exit 1'"
+rvm:
+  - 1.9.3
+env:
+notifications:
+  email: false
